@@ -1,0 +1,54 @@
+/* Body */
+body {
+  background-color: #e6f2ff;
+  font-family: Arial, sans-serif;
+}
+
+/* Blog Card */
+.blog-post-card {
+  background-color: white;
+  width: 350px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+/* Image */
+.post-img {
+  width: 100%;
+  border-bottom: 3px solid #ccc;
+}
+
+/* Content */
+.post-content {
+  padding: 20px;
+}
+
+/* Title */
+.post-title {
+  color: #333;
+  margin: 15px;
+}
+
+/* Excerpt */
+.post-excerpt {
+  color: #666;
+  margin: 15px;
+}
+
+/* Read More Button */
+.read-more {
+  display: inline-block;
+  color: white;
+  background-color: #007bff;
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Hover Effect */
+.read-more:hover {
+  background-color: #0056b3;
+}

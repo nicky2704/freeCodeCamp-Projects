@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* First input */
+input:first-of-type {
+  border-radius: 10px;
+}
+
+/* Focus */
+input:focus,
+textarea:focus {
+  border-color: blue;
+  outline: none;
+}
+
+/* Invalid */
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+/* Valid */
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+
+/* Button */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: steelblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+/* Radio buttons */
+.radio-group input[type="radio"] {
+  width: auto;
+}
+
+/* Checked radio */
+.radio-group input[type="radio"]:checked {
+  border-color: blue;
+  background-color: lightblue;
+  box-shadow: 0 0 5px blue;
+}
+
+/* Change selected label color */
+.radio-group input[type="radio"]:checked + label {
+  color: blue;
+  font-weight: bold;
+}
