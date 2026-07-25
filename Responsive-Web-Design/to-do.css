@@ -1,0 +1,29 @@
+/* Remove underline from links */
+a {
+  text-decoration: none;
+}
+
+/* Unvisited links */
+a:link {
+  color: blue;
+}
+
+/* Visited links */
+a:visited {
+  color: purple;
+}
+
+/* Hovered links */
+a:hover {
+  color: green;
+}
+
+/* Focused links */
+a:focus {
+  outline: 2px solid orange;
+}
+
+/* Active (clicked) links */
+a:active {
+  color: red;
+}
